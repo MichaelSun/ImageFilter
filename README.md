@@ -1,11 +1,11 @@
 ImageFilter
 ===========
-
-ImageFilter
-
+Java Image Filters
+------------------
 V1.0
 
 Add Following ImageFilters :
+
 ExposureFilter
 ThresholdFilter
 AutoAdjustFilter
