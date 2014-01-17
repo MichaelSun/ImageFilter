@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- base color -->    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray1">#AAAAAA</color>
+    <color name="gray2">#999999</color>
+    <color name="gray3">#BBBBBB</color>
+    <color name="gray4">#333333</color>
+    <color name="gray5">#666666</color>
+    <color name="gray6">#F2F2F2</color>
+    <color name="gray7">#DEDEDE</color>
+    <color name="gray8">#c3c3c1</color>
+
+    <drawable name="white_trans">#6fFFFFFF</drawable>
+
+    <!-- 默认的EditText中光标的提示颜色 -->
+    <drawable name="edit_highlight">#8622ab</drawable>
+    
+    <drawable name="white">#FFFFFF</drawable>
+    <color name="green">#00ff00</color>
+    <color name="red">#ff0000</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="action_bar_bg_pressed_color">#20000000</color>
+
+    <!-- main page -->
+    <color name="main_page_tab_btn_selected_color">#0d0d0d</color>
+    <color name="main_page_chat_item_bg_pressed_color">#f2f2f2</color>
+    <color name="broadcast_area_controller_bg_pressed_color">#0c000000</color>
+    
+
+    <!-- setting -->
+    <color name="setting_clickable_item_bg_pressed_color">#f8f8f8</color>
+    <drawable name="setting_default_header">#ced0d1</drawable>
+
+    <!-- chat -->
+    <color name="chat_text_color_a">#ffffff</color>
+    <color name="chat_text_color_b">#232424</color>
+    <color name="chat_text_color_c">#9fa0a1</color>
+    <color name="chat_text_color_d">#ced0d1</color>
+    <color name="chat_text_color_e">#8622ab</color>
+    <color name="chat_text_color_f">#b6d334</color>
+    <color name="chat_text_color_g">#ff5859</color>
+    <color name="chat_text_color_h">#007efe</color>
+
+    <drawable name="chat_default_avatar">#ced0d1</drawable>
+    <drawable name="chat_default_cover">#ced0d1</drawable>
+    <drawable name="chat_background">#e3e4e6</drawable>
+    <drawable name="large_image_view_background">#000000</drawable>
+
+    <!-- broadcast -->
+    <color name="broadcast_text_color_a">#ffffff</color>
+    <color name="broadcast_text_color_b">#232424</color>
+    <color name="broadcast_text_color_c">#9fa0a1</color>
+    <color name="broadcast_text_color_d">#ced0d1</color>
+    <color name="broadcast_text_color_e">#8622ab</color>
+    <color name="broadcast_text_color_f">#b6d334</color>
+    <color name="broadcast_text_color_g">#ff5859</color>
+    
+    <drawable name="broadcast_default_cover">#ced0d1</drawable>
+    
+    <drawable name="transparent">#00000000</drawable>
+    
+    <color name="camera_button_background">#ffffffff</color>
+    <color name="camera_button_pressed_background">#1a000000</color>
+    <color name="publisher_button_backgroundd">#00ffffff</color>
+    <color name="publisher_button_pressed_backgroundd">#4d000000</color>
+    <color name="camera_button_text">#8622ab</color>
+    <color name="sliderview_character">#6a737d</color>
+
+    <!-- profile page text color -->
+    <color name="profile_text_color_a">#ffffff</color>
+    <color name="profile_text_color_b">#232424</color>
+    <color name="profile_text_color_c">#9fa0a1</color>
+    <color name="profile_text_color_d">#ced0d1</color>
+    <color name="profile_text_color_e">#8622ab</color>
+    <color name="profile_text_color_f">#b6d334</color>
+    <color name="profile_text_color_g">#ff5859</color>
+    <color name="profile_text_color_a_alpha50">#f0ffffff</color>
+    <color name="profile_text_color_divider">#ffffff</color>
+    
+    <color name="contact_dividor_color">#dbdbdb</color>
+    <color name="contact_username_text_color">#232424</color>
+    <color name="contact_index_text_color">#505458</color>
+    <color name="contact_item_normal_bg">#ffffff</color>
+    <color name="contact_item_pressed_bg">#f2f2f2</color>
+	<color name="invite_text_color_a">#232424</color>
+	<color name="invite_text_color_b">#9fa0a1</color>    
+	<color name="invite_friends_item_bg_normal">#FFFFFF</color>
+	<color name="invite_friends_item_bg_pressed">#f8f8f8</color>
+	
+	
+	<!-- register and login page -->
+    <color name="register_text_hint_color">#ced0d1</color>
+    <color name="register_text_color_a">#ffffff</color>
+    <color name="register_text_color_b">#232424</color>
+    <color name="register_text_color_c">#9fa0a1</color>
+    <color name="register_text_color_d">#ced0d1</color>
+    <color name="register_text_color_e">#8622ab</color>
+    <color name="register_text_color_f">#b6d334</color>
+    <color name="register_text_color_g">#ff5859</color>
+    
+    <!-- notification item -->
+    <color name="notification_item_bg">#b5d335</color>
+    
+</resources>
