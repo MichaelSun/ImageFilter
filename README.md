@@ -35,5 +35,5 @@ Java Image Filters
 
 
 ### screenshot
-![github](https://github.com/MichaelSun/ImageFilter/blob/master/screenshot/Screenshot_2014-01-17-19-10-35.png "github")
+![screenshot](http://github.com/MichaelSun/ImageFilter/blob/master/screenshot/Screenshot_2014-01-17-19-10-35.png)
 
