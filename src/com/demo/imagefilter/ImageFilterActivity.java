@@ -41,7 +41,7 @@ public class ImageFilterActivity extends BaseActivity {
 
         mRestID = getIntent().getIntExtra(Config.KEY_RES_ID, 0);
 
-        enableHomeButton("滤镜");
+        enableHomeButton("filter");
 
         initUI();
     }
