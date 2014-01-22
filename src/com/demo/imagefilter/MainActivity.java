@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.PagerTitleStrip;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,8 +23,8 @@ public class MainActivity extends BaseActivity {
     private ViewPager mViewPager;
     private ImageSelectPagerAdapter mImageSelectPagerAdapter;
 
-    private int[] mResList = { R.drawable.test_4, R.drawable.test_5, R.drawable.test_6, R.drawable.test_7
-                                 , R.drawable.test_1, R.drawable.test_2, R.drawable.test_3 };
+    private int[] mResList = { R.drawable.test_1, R.drawable.test_2, R.drawable.test_3, R.drawable.test_4
+                                 , R.drawable.test_5, R.drawable.test_6, R.drawable.test_7 };
 
     private View mFilterBt;
 
@@ -38,6 +39,7 @@ public class MainActivity extends BaseActivity {
         mActionBar.setDisplayHomeAsUpEnabled(false);
         mActionBar.setHomeButtonEnabled(false);
 
+        PagerTitleStrip titleStrip = (PagerTitleStrip) findViewById(R.id.title);
         mViewPager = (ViewPager) findViewById(R.id.pager);
         mImageSelectPagerAdapter = new ImageSelectPagerAdapter(getApplicationContext(), mResList);
         mViewPager.setAdapter(mImageSelectPagerAdapter);
@@ -70,6 +72,11 @@ public class MainActivity extends BaseActivity {
         public ImageSelectPagerAdapter(Context context, int[] resList) {
             mContext = context;
             mResList = resList;
+        }
+
+        @Override
+        public String getPageTitle(int position) {
+            return getResources().getResourceEntryName(mResList[position]);
         }
 
         @Override
