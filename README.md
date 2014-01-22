@@ -1,6 +1,14 @@
 ImageFilter
 ===========
-Java Image Filters
+------------------
+### Java Image Filters
+	完全用java写的图片处理算法，除了工程是使用的Android，具体的filter算法是和平台无关的，方便各个平台的迁移。
+
+------------------
+### V1.1 2014-01-22
+	BlurFiter
+	FastBlurAndroidFilter
+
 ------------------
 ### V1.0
 	ExposureFilter
