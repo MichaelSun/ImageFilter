@@ -77,7 +77,7 @@ public class ImageFilterActivity extends BaseActivity {
         });
     }
 
-    public static HashMap<Integer, IImageFilter> getFilterMap() {
+    public HashMap<Integer, IImageFilter> getFilterMap() {
         HashMap<Integer, IImageFilter> ret = new HashMap<Integer, IImageFilter>();
         ret.put(R.drawable.exposurefilter, new ExposureFilter(3));
         ret.put(R.drawable.thresholdfilter, new ThresholdFilter());
@@ -105,6 +105,8 @@ public class ImageFilterActivity extends BaseActivity {
         ret.put(R.drawable.ripplefilter, new RippleFilter(38, 15, true));
         ret.put(R.drawable.twistfilter, new TwistFilter(27, 106));
         ret.put(R.drawable.wavefilter, new WaveFilter(25, 10));
+        ret.put(R.drawable.blurfilter, new BlurFilter(50));
+        ret.put(R.drawable.fastblurandroidfilter, new FastBlurAndroidFilter(ImageFilterActivity.this.getApplicationContext(), 25));
 
         return ret;
     }
